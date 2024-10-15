@@ -2015,6 +2015,30 @@
         "nameTextMapHash": 94228129,
         "icon": "UI_Talent_S_Chiori_04"
     },
+    "951": {
+        "nameTextMapHash": 2069380665,
+        "icon": "UI_Talent_S_Sigewinne_01"
+    },
+    "952": {
+        "nameTextMapHash": 2490532081,
+        "icon": "UI_Talent_S_Sigewinne_02"
+    },
+    "953": {
+        "nameTextMapHash": 2818554353,
+        "icon": "UI_Talent_U_Sigewinne_01"
+    },
+    "954": {
+        "nameTextMapHash": 952229337,
+        "icon": "UI_Talent_S_Sigewinne_03"
+    },
+    "955": {
+        "nameTextMapHash": 3412453553,
+        "icon": "UI_Talent_U_Sigewinne_02"
+    },
+    "956": {
+        "nameTextMapHash": 2161046649,
+        "icon": "UI_Talent_S_Sigewinne_04"
+    },
     "961": {
         "nameTextMapHash": 1931573609,
         "icon": "UI_Talent_S_Arlecchino_01"
@@ -2038,5 +2062,149 @@
     "966": {
         "nameTextMapHash": 585561937,
         "icon": "UI_Talent_S_Arlecchino_04"
+    },
+    "971": {
+        "nameTextMapHash": 2929346465,
+        "icon": "UI_Talent_S_Sethos_01"
+    },
+    "972": {
+        "nameTextMapHash": 4002600217,
+        "icon": "UI_Talent_S_Sethos_02"
+    },
+    "973": {
+        "nameTextMapHash": 3225646441,
+        "icon": "UI_Talent_U_Sethos_01"
+    },
+    "974": {
+        "nameTextMapHash": 1034621857,
+        "icon": "UI_Talent_S_Sethos_03"
+    },
+    "975": {
+        "nameTextMapHash": 1113819633,
+        "icon": "UI_Talent_U_Sethos_02"
+    },
+    "976": {
+        "nameTextMapHash": 1135303145,
+        "icon": "UI_Talent_S_Sethos_04"
+    },
+    "981": {
+        "nameTextMapHash": 3895585233,
+        "icon": "UI_Talent_S_Clorinde_01"
+    },
+    "982": {
+        "nameTextMapHash": 1056604337,
+        "icon": "UI_Talent_S_Clorinde_02"
+    },
+    "983": {
+        "nameTextMapHash": 808249241,
+        "icon": "UI_Talent_U_Clorinde_02"
+    },
+    "984": {
+        "nameTextMapHash": 3782829777,
+        "icon": "UI_Talent_S_Clorinde_03"
+    },
+    "985": {
+        "nameTextMapHash": 2786589217,
+        "icon": "UI_Talent_U_Clorinde_01"
+    },
+    "986": {
+        "nameTextMapHash": 2154723033,
+        "icon": "UI_Talent_S_Clorinde_04"
+    },
+    "991": {
+        "nameTextMapHash": 740813377,
+        "icon": "UI_Talent_S_Emilie_01"
+    },
+    "992": {
+        "nameTextMapHash": 888272609,
+        "icon": "UI_Talent_S_Emilie_02"
+    },
+    "993": {
+        "nameTextMapHash": 1597660969,
+        "icon": "UI_Talent_U_Emilie_01"
+    },
+    "994": {
+        "nameTextMapHash": 349963729,
+        "icon": "UI_Talent_S_Emilie_03"
+    },
+    "995": {
+        "nameTextMapHash": 100927345,
+        "icon": "UI_Talent_U_Emilie_02"
+    },
+    "996": {
+        "nameTextMapHash": 1536750705,
+        "icon": "UI_Talent_S_Emilie_04"
+    },
+    "1001": {
+        "nameTextMapHash": 2143241681,
+        "icon": "UI_Talent_S_Kachina_01"
+    },
+    "1002": {
+        "nameTextMapHash": 704182361,
+        "icon": "UI_Talent_S_Kachina_02"
+    },
+    "1003": {
+        "nameTextMapHash": 2998878913,
+        "icon": "UI_Talent_U_Kachina_01"
+    },
+    "1004": {
+        "nameTextMapHash": 817423409,
+        "icon": "UI_Talent_S_Kachina_03"
+    },
+    "1005": {
+        "nameTextMapHash": 2586210761,
+        "icon": "UI_Talent_U_Kachina_02"
+    },
+    "1006": {
+        "nameTextMapHash": 610256545,
+        "icon": "UI_Talent_S_Kachina_04"
+    },
+    "1011": {
+        "nameTextMapHash": 1583880905,
+        "icon": "UI_Talent_S_Kinich_01"
+    },
+    "1012": {
+        "nameTextMapHash": 2132485057,
+        "icon": "UI_Talent_S_Kinich_02"
+    },
+    "1013": {
+        "nameTextMapHash": 4288565513,
+        "icon": "UI_Talent_U_Kinich_01"
+    },
+    "1014": {
+        "nameTextMapHash": 815285033,
+        "icon": "UI_Talent_S_Kinich_03"
+    },
+    "1015": {
+        "nameTextMapHash": 1182554297,
+        "icon": "UI_Talent_U_Kinich_02"
+    },
+    "1016": {
+        "nameTextMapHash": 981774713,
+        "icon": "UI_Talent_S_Kinich_04"
+    },
+    "1021": {
+        "nameTextMapHash": 985140641,
+        "icon": "UI_Talent_S_Mualani_01"
+    },
+    "1022": {
+        "nameTextMapHash": 1018012993,
+        "icon": "UI_Talent_S_Mualani_02"
+    },
+    "1023": {
+        "nameTextMapHash": 2809940313,
+        "icon": "UI_Talent_U_Mualani_01"
+    },
+    "1024": {
+        "nameTextMapHash": 84972441,
+        "icon": "UI_Talent_S_Mualani_03"
+    },
+    "1025": {
+        "nameTextMapHash": 1734370449,
+        "icon": "UI_Talent_U_Mualani_02"
+    },
+    "1026": {
+        "nameTextMapHash": 2582545881,
+        "icon": "UI_Talent_S_Mualani_04"
     }
 }
