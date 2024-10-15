@@ -21,7 +21,7 @@ class ProfilePicture(BaseModel):
     """
         API Response data
     """
-    id: Union[int, str] = Field(0, alias="avatarId")
+    id: int = Field(0, alias="avatarId")
 
     """
         Custom add data
@@ -31,8 +31,6 @@ class ProfilePicture(BaseModel):
     def __init__(self, **data: Any) -> None:
         super().__init__(**data)
 
-        self.id = int(self.id)
-        
         # Get character
         LOGGER.debug("=== Avatar ===")
         if "avatarId" in data:
@@ -41,23 +39,18 @@ class ProfilePicture(BaseModel):
                 icon = _data.images if _data is not None else _data
             else:
                 icon = Assets.character_icon(str(data["avatarId"]))
-        elif "id" in data:
-            self.id = int(data["id"])
-            _data = Assets.character_avatar(self.id)
-            icon = _data.images if _data is not None else _data
-            
-            
-        if not icon:
-            return    
-         
-        self.icon = icon.icon
+
+            if not icon:
+                return
+
+            self.icon = icon.icon
 
 
 class showAvatar(BaseModel):
     """
         API Response data
     """
-    id: Union[int, str] = Field(0, alias="avatarId")
+    id: str = Field(0, alias="avatarId")
     level: int = 1
 
     """
@@ -67,11 +60,12 @@ class showAvatar(BaseModel):
     icon: IconAsset = None
     element: ElementType = ElementType.Unknown
 
+    energy_type: int = Field(0, alias="energyType")
+    talent_level: int = Field(0, alias="talentLevel")
+
     def __init__(self, **data: Any) -> None:
         super().__init__(**data)
 
-        self.id = int(self.id)
-        
         # Get character
         LOGGER.debug("=== Character preview ===")
 
@@ -144,6 +138,19 @@ class PlayerInfo(BaseModel):
     # Abyss floor
     abyss_floor: int = Field(0, alias="towerFloorIndex")
     abyss_room: int = Field(0, alias="towerLevelIndex")
+
+    tower_act: int = Field(0, alias="towerAct")
+    tower_star_index: int = Field(0, alias="towerStarIndex")
+    theater_stars: int = Field(0, alias="theaterStars")
+    theater_mode: int = Field(0, alias="theaterMode")
+
+    theater_act_index: int = Field(0, alias="theaterActIndex")
+    theater_mode_index: int = Field(0, alias="theaterModeIndex")
+    theater_star_index: int = Field(0, alias="theaterStarIndex")
+    
+    is_show_avatar_talent: bool = Field(False, alias="isShowAvatarTalent")
+    fetter_count: int = Field(0, alias="fetterCount")
+
 
     """
         Custom data
